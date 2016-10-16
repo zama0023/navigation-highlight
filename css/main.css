@@ -1,10 +1,64 @@
 html {
   box-sizing: border-box;
-  background-color: #ffe500 ;
+  background-color: #ffe500;
   font-family: "Sigmar One", serif;
-  line-height: ;
+  line-height: 1.5;
+  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #b20953;
+}
+
+h2 {
+  text-align: left;
+  font-size:1.875rem;
+  color: #b20953;
+}
+
+p {
+  text-align: left;
+  font-family: Georgia;
+  font-size: 1.125rem;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li{
+  display: inline-block;
+  text-align: center;
+  font-size: 1.125rem;
+  font-family: Georgia;
+  color: #fff;
+}
+
+li {
+  float: left;
+}
+
+body {
+  display:inline-block;
+  vertical-align: center;
+  padding: 1em;
+  max-width: 400px;
+  display:inline-block;
+  padding: 1em;
+  text-align:left;
+}
+
+footer p {
+  font-size: 0.75rem;
+  text-align: center;
+  font-family: Georgia;
 }
