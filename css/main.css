@@ -1,64 +1,159 @@
 html {
-  box-sizing: border-box;
   background-color: #ffe500;
   font-family: "Sigmar One", serif;
   line-height: 1.5;
   text-align: center;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+header {
+  padding: inherit;
+  padding: 0.02em;
+}
+
 h1 {
   text-align: center;
   font-size: 3rem;
   color: #b20953;
+  line-height: 1.5;
+  margin: 0.2em;
+  padding: inherit;
+  padding: 0 10px;
+  line-height: 0.5;
 }
 
 h2 {
   text-align: left;
   font-size:1.875rem;
   color: #b20953;
+  line-height: 1.5;
+  margin: 0.2em;
+  padding:0;
 }
 
 p {
   text-align: left;
   font-family: Georgia;
   font-size: 1.125rem;
+  padding: 0;
+  margin: 0.3em;
 }
 
 nav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-top: 0.3em;
   overflow: hidden;
+  line-height: 1.5;
 }
 
-.nav li{
+.nav li {
   display: inline-block;
   text-align: center;
   font-size: 1.125rem;
   font-family: Georgia;
   color: #fff;
+  line-height: 1.5;
+  margin: 0.2em;
+  padding: inherit;
+  padding: 0;
+
 }
 
-li {
+.nav li {
   float: left;
 }
 
 body {
   display:inline-block;
-  vertical-align: center;
-  padding: 1em;
+  padding: inherit;
+  padding: 10px;
   max-width: 400px;
   display:inline-block;
-  padding: 1em;
   text-align:left;
+  margin: 0;
 }
 
-footer p {
+footer {
+  font-family: Georgia;
   font-size: 0.75rem;
   text-align: center;
-  font-family: Georgia;
+}
+
+main {
+  display: inline-block;
+  background-color: #fff;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.a {
+  background-color: #b2a212;
+  display: inline-block;
+  margin: inherit;
+  margin: 0 0 0.2em;
+  padding: inherit;
+  padding: .2em 0.5em 0.3em;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.a:hover {
+  background-color: #b20953;
+}
+
+.b {
+  background-color: #b2a212;
+  display: inline-block;
+  margin: inherit;
+  margin: 0 0 0.2em;
+  padding: inherit;
+  padding: .2em 0.5em 0.3em;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.b:hover {
+  background-color: #b20953;
+}
+
+.c {
+  background-color: #b2a212;
+  display: inline-block;
+  margin: inherit;
+  margin: 0 0 0.2em;
+  padding: inherit;
+  padding: .2em 0.5em 0.3em;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.c:hover {
+  background-color: #b20953;
+}
+
+.d {
+  background-color: #b2a212;
+  display: inline-block;
+  margin: inherit;
+  margin: 0 0 0.2em;
+  padding: inherit;
+  padding: .2em 0.5em 0.3em;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.d:hover {
+  background-color: #b20953;
 }
