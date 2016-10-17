@@ -23,7 +23,7 @@ h1 {
   margin: 0.2em;
   padding: inherit;
   padding: 0 10px;
-  line-height: 0.5;
+  line-height: .5;
 }
 
 h2 {
@@ -33,23 +33,16 @@ h2 {
   line-height: 1.5;
   margin: 0.2em;
   padding:0;
+  line-height: 1.5;
 }
 
 p {
   text-align: left;
   font-family: Georgia;
   font-size: 1.125rem;
-  padding: 0;
-  margin: 0.3em;
-}
-
-/*nav {
-  list-style-type: none;
-  margin-top: 0.3em;
-  overflow: hidden;
+  padding: 0.2em;
   line-height: 1.5;
-  display: inline-block;
-}*/
+}
 
 nav li {
   display: inline-block;
@@ -58,7 +51,7 @@ nav li {
   font-family: Georgia;
   color: #fff;
   line-height: 1.5;
-  margin: 0.2em;
+  margin: .3em;
   padding: inherit;
   padding: 0;
 }
@@ -67,7 +60,7 @@ body {
   display:inline-block;
   padding: inherit;
   padding: 10px;
-  max-width: 400px;
+  max-width: 455px;
   display:inline-block;
   text-align:left;
   margin: 0;
@@ -83,15 +76,16 @@ footer {
 main {
   display: inline-block;
   background-color: #fff;
-  padding: 0;
+  padding: .2em;
   line-height: 1.5;
 }
 
 ul {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 25px;
   margin-left: -80px;
-  margin-right: -20px;
+  margin-right: -40px;
+  line-height: 1.5;
 }
 
 .a {
