@@ -1,6 +1,5 @@
 html {
-  background-color: #ffe500;
-  font-family: "Sigmar One", serif;
+  font-family: Georgia;
   line-height: 1.5;
   text-align: center;
   box-sizing: border-box;
@@ -11,84 +10,69 @@ html {
 }
 
 header {
-  padding: inherit;
-  padding: 0.02em;
+  padding: 0 0.2em 0.2em;
+  background-color: #ffe500;
 }
 
 h1 {
+  font-family: "Sigmar One", serif;
   text-align: center;
   font-size: 3rem;
   color: #b20953;
-  line-height: 1.5;
-  margin: 0.2em;
-  padding: inherit;
-  padding: 0 10px;
-  line-height: .5;
+  margin: 0;
+  padding-bottom: .3em;
 }
 
 h2 {
+  font-family: "Sigmar One", serif;
   text-align: left;
   font-size:1.875rem;
   color: #b20953;
-  line-height: 1.5;
-  margin: 0.2em;
-  padding:0;
-  line-height: 1.5;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+  padding-top: .3em;
 }
 
 p {
   text-align: left;
-  font-family: Georgia;
   font-size: 1.125rem;
-  padding: 0.2em;
-  line-height: 1.5;
+  margin-top: 1.5em;
+  margin-bottom: 0;
 }
 
 nav li {
   display: inline-block;
   text-align: center;
   font-size: 1.125rem;
-  font-family: Georgia;
   color: #fff;
-  line-height: 1.5;
-  margin: .3em;
-  padding: inherit;
+  margin: 0;
   padding: 0;
 }
 
 body {
-  display:inline-block;
-  padding: inherit;
-  padding: 10px;
-  max-width: 455px;
-  display:inline-block;
-  text-align:left;
   margin: 0;
 }
 
 footer {
-  font-family: Georgia;
   font-size: 0.75rem;
   text-align: center;
-  margin: 0.3em;
+  background-color: #ffe500;
+  padding: 1em;
 }
 
 main {
   display: inline-block;
   background-color: #fff;
   padding: .2em;
-  line-height: 1.5;
 }
 
 ul {
   text-align: center;
-  margin-top: 25px;
-  margin-left: -80px;
-  margin-right: -40px;
-  line-height: 1.5;
+  margin: 0;
+  padding: 0 0 0.3em;
 }
 
-.a {
+nav a {
   background-color: #b2a212;
   display: inline-block;
   margin: inherit;
@@ -101,57 +85,12 @@ ul {
   text-align: center;
 }
 
-.a:hover {
+a:hover {
   background-color: #b20953;
 }
 
-.b {
-  background-color: #b2a212;
-  display: inline-block;
-  margin: inherit;
-  margin: 0 0 0.2em;
-  padding: inherit;
-  padding: .2em 0.5em 0.3em;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
-}
-
-.b:hover {
-  background-color: #b20953;
-}
-
-.c {
-  background-color: #b2a212;
-  display: inline-block;
-  margin: inherit;
-  margin: 0 0 0.2em;
-  padding: inherit;
-  padding: .2em 0.5em 0.3em;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
-}
-
-.c:hover {
-  background-color: #b20953;
-}
-
-.d {
-  background-color: #b2a212;
-  display: inline-block;
-  margin: inherit;
-  margin: 0 0 0.2em;
-  padding: inherit;
-  padding: .2em 0.5em 0.3em;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
-}
-
-.d:hover {
-  background-color: #b20953;
+img {
+  display:inline-block;
+  width: 100%;
+  margin-top: 2em;
 }
